@@ -41,6 +41,10 @@ body {
   color: #333;
 }
 
+.hamburger {
+  display: none;
+}
+
 .right-group {
   display: flex;
   align-items: center;
@@ -120,16 +124,14 @@ body {
   text-align: left;
 }
 
-.first-text img {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-bottom: 80px;
-}
-
 .first-text h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
+  background: linear-gradient(70deg, #bd85f2 2%, #819dfb 20%, #d099ff 33%, #7f9af9 71%, #938bf3 80%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .first-text p {
